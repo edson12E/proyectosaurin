@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+}
+body{
+    background-color: #fecda6;
+}
+h1{
+    font-family: 'Seymour One', sans-serif;
+}
+header{
+    height: calc(10vh - 30px);
+    margin-top: 30px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+input{
+    height: 30px;
+    width: 550px;
+    border-radius: 20px;
+}
+header p{
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 3px black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    margin: 0 10px;
+}
+li a{
+    display: flex;
+    flex-direction: column;
+}
+li a button{
+    width: 50px;
+}
+.icons_nav{
+    width: 30px;
+    height: 30px;
+}
+main{
+    height: 75vh;
+}
+.hacia_atras{
+    display: flex;
+}
+.main_sections{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_sections div{
+    display: flex;
+    flex-direction: column;
+}
+.container_help{
+    margin-top: 80px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.container_help p{
+    margin: 0 10px;
+    width: 150px;
+}
+footer{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #A9A9A9;
+
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+footer p{
+    font-family: 'Exo', sans-serif;
+}
+nav p {
+    background-color: #FF9130;
+}
